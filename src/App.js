@@ -5,9 +5,9 @@ import Content from './layout/Content'
 export default function App(props) {  
     return (
         <>
-          <Hd></Hd>  
-          <Content></Content>
-          <Ft></Ft>
+          <Hd scrollcls='scroll'></Hd>  
+          <Content cid='content'></Content>
+          <Ft fid='ft'></Ft>
         </>
     )
 }
